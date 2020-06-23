@@ -3,5 +3,12 @@
   body {
     background-color: green;
   }
+  #medium {
+    display: block;
+  }
+  #small,
+  #large {
+    display: hide;
+  }
 }
 /*# sourceMappingURL=768.css.map */

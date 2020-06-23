@@ -3,6 +3,14 @@
     body {
       background-color: red;
     }
+    
+    #small {
+      display:block;
+    }
 
+    #medium,
+    #large {
+      display:hide;
+    }
   }
 

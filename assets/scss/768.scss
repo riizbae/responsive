@@ -3,4 +3,13 @@
     body {
       background-color: green;
     }
+
+    #medium {
+      display:block;
+    }
+
+    #small,
+    #large {
+      display:hide;
+    }
   }

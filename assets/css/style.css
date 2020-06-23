@@ -3,6 +3,13 @@
   body {
     background-color: red;
   }
+  #small {
+    display: block;
+  }
+  #medium,
+  #large {
+    display: hide;
+  }
 }
 
 /* On screens that are 768px or less, set the background color to green */
@@ -10,9 +17,21 @@
   body {
     background-color: green;
   }
+  #medium {
+    display: block;
+  }
+  #small,
+  #large {
+    display: hide;
+  }
 }
 
 body {
   background-color: blue;
+}
+
+#small,
+#medium {
+  display: hide;
 }
 /*# sourceMappingURL=style.css.map */
