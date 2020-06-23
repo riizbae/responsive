@@ -7,16 +7,16 @@
     display: block;
   }
   #small h2 {
-    text-align: center;
-    font-size: 1rem;
+    text-align: right;
+    font-size: 0.75 rem;
   }
   #small p {
     text-align: justify;
-    font-size: 0.75 rem;
+    font-size: .5 rem;
   }
   #medium,
   #large {
-    display: hide;
+    display: none;
   }
 }
 
@@ -25,20 +25,20 @@
   body {
     background-color: green;
   }
+  #small,
+  #large {
+    display: none;
+  }
   #medium {
     display: block;
   }
   #medium h2 {
-    text-align: right;
-    font-size: 1.2 rem;
+    text-align: left;
+    font-size: 1.5 rem;
   }
   #medium p {
-    text-align: center;
-    font-size: 0.4 rem;
-  }
-  #small,
-  #large {
-    display: hide;
+    text-align: justify;
+    font-size: 1 rem;
   }
 }
 
@@ -46,18 +46,18 @@ body {
   background-color: blue;
 }
 
+h2 {
+  text-align: center;
+  font-size: 2 rem;
+}
+
+p {
+  text-align: justify;
+  font-size: 1 rem;
+}
+
 #small,
 #medium {
-  display: hide;
-}
-
-#large h2 {
-  text-align: left;
-  font-size: 30 em;
-}
-
-#large p {
-  text-align: right;
-  font-size: 1 rem;
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

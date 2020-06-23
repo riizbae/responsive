@@ -1,24 +1,24 @@
-@import "300.scss";
-@import "768.scss";
+@import "_300.scss";
+@import "_768.scss";
 
 body{
     background-color:blue;
 }
 
-  #small,
-  #medium {
-    display:hide;
-  }
+h2 {
+    text-align:center;
+    font-size:2 rem;
+}
+p {
+    text-align:justify;
+    font-size:1 rem;
+}
 
-  #large{
+#small, 
+#medium {
+    display:none;
+}
 
-        h2 {
-            text-align:left;
-            font-size:30 em;
-        }
 
-        p {
-            text-align:right;
-            font-size:1 rem;
-        }
-  }
+
+  
