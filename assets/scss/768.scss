@@ -1,0 +1,6 @@
+/* On screens that are 768px or less, set the background color to green */
+@media screen and (max-width: 768px) and (min-width:300px) {
+    body {
+      background-color: green;
+    }
+  }
