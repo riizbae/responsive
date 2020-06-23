@@ -6,6 +6,14 @@
   #small {
     display: block;
   }
+  #small h2 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  #small p {
+    text-align: justify;
+    font-size: 0.75 rem;
+  }
   #medium,
   #large {
     display: hide;
@@ -20,6 +28,14 @@
   #medium {
     display: block;
   }
+  #medium h2 {
+    text-align: right;
+    font-size: 1.2 rem;
+  }
+  #medium p {
+    text-align: center;
+    font-size: 0.4 rem;
+  }
   #small,
   #large {
     display: hide;
@@ -33,5 +49,15 @@ body {
 #small,
 #medium {
   display: hide;
+}
+
+#large h2 {
+  text-align: left;
+  font-size: 30 em;
+}
+
+#large p {
+  text-align: right;
+  font-size: 1 rem;
 }
 /*# sourceMappingURL=style.css.map */

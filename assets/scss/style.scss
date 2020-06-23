@@ -9,3 +9,16 @@ body{
   #medium {
     display:hide;
   }
+
+  #large{
+
+        h2 {
+            text-align:left;
+            font-size:30 em;
+        }
+
+        p {
+            text-align:right;
+            font-size:1 rem;
+        }
+  }
